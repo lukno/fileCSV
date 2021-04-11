@@ -1,0 +1,131 @@
+a <- 20/log(2.78)
+a
+help(abs)
+a <- 8:75
+sum(a)/length(a)
+apropos("plot", mode="function")
+getwd()
+setwd("apu")
+setwd("apu")
+getwd()
+a <- c("tablet")
+a
+write(a, file = 'tablet.csv')
+remove(a)
+a
+a<-read.csv(file='tablet.csv')
+a
+install.packages("gridExtra")
+library(gridExtra)
+library(help = grid)
+help(package = "gridExtra")
+grid.table(volcano[1:10, ])
+grid.table(volcano[1:10, ])
+b <- seq(1000,200,-8)
+b
+a<-50:30
+a
+b<-4:50
+b
+d<-c(b,a)
+d
+nazwa<-c('Samsung Galaxy Tab S7', 'Apple iPad Air 2020', 'Lenovo Tab P11 TB-J606F', 'Huawei MediaPad T3', 'Lenovo Yoga Smart Tab', 'Lenovo TAB M10 FHD Plus', 'Huawei MatePad T10s', 'Huawei MediaPad T5 10', 'Samsung Galaxy Tab S6 Lite', 'Samsung Galaxy Tab A 10,1 2019')
+nazwa
+nazwa<-c('Apple iPad Air 2020 10,9', 'Apple iPad 2020 10', 'Apple iPad mini 2019 Wi-Fi 64GB', 'Lenovo TAB M10 FHD Plus', 'Huawei MatePad T10s', 'Huawei MediaPad T5', 'Samsung Galaxy Tab S6 Lite', 'Lenovo TAB M10 FHD Plus', 'Samsung Galaxy Tab A', 'Samsung Galaxy Tab S7')
+nazwa
+modem<=c('4G/LTE', 'nie', 'nie', 'nie', 'nie, 'nie', '4G/LTE', 'nie', '4G/LTE', '4G/LTE')
+modem<-c('4G/LTE', 'nie', 'nie', 'nie', 'nie, 'nie', '4G/LTE', 'nie', '4G/LTE', '4G/LTE')
+modem<-c('4G LTE', 'nie', 'nie', 'nie', 'nie, 'nie', '4G LTE', 'nie', '4G LTE', '4G LTE')
+modem<-c('4G LTE', 'nie', 'nie', 'nie', 'nie', 'nie', '4G LTE', 'nie', '4G LTE', '4G LTE')
+modem
+wyswietlacz<-('Retina', 'Retina', 'Retina', 'Super AMOLED', 'IPS', 'IPS', 'IPS', 'TFT', 'IPS', 'TFT')
+wyswietlacz<-('Retina', 'Retina', 'Retina', 'Super AMOLED', 'IPS', 'IPS', 'IPS', 'TFT', 'IPS', 'TFT')
+wyswietlacz<-('Retina', 'Retina', 'Retina', 'Super AMOLED', 'IPS', 'IPS', 'IPS', 'TFT', 'IPS', 'TFT')
+wyswietlacz<-('Retina', 'Retina', 'Retina', 'Super AMOLED', 'IPS', 'IPS', 'IPS', 'TFT', 'IPS', 'TFT',)
+wyswietlacz<-('Retina', 'Retina', 'Retina', 'Super AMOLED', 'IPS', 'IPS', 'IPS', 'TFT', 'IPS', 'TFT')
+wyswietlacz<-('Retina', 'Retina' 'Retina', 'Super AMOLED', 'IPS', 'IPS', 'IPS', 'TFT', 'IPS', 'TFT')
+wyswietlacz<-('Retina', 'Retina', 'Retina', 'Super AMOLED', 'IPS', 'IPS', 'IPS', 'TFT', 'IPS', 'TFT')
+;
+modem
+wyswietlacz<-('Retina', 'Retina', 'Retina', 'Super AMOLED', 'IPS', 'IPS', 'IPS', 'TFT', 'IPS', 'TFT')
+WYSWIETLACZ<-c('Retina','Retina','Retina','Super Amoled','IPS','IPS','IPS','TFT','IPS','TFT')
+remove(WYSWIETLACZ)
+wyswietlacz<-c('Retina','Retina','Retina','Super Amoled','IPS','IPS','IPS','TFT','IPS','TFT')
+wyswietlacz
+pamiec_RAM<-('16GB', '16GB', '16GB', '6GB', '4GB', '3GB', '4GB', '4GB', '4GB', '2GB')
+pamiec_RAM<-("16GB", '16GB', '16GB', '6GB', '4GB', '3GB', '4GB', '4GB', '4GB', '2GB')
+pamiec_RAM<-("16GB", '16GB', '16GB', '6GB', '4GB', '3GB', '4GB', '4GB', '4GB', '2GB')
+pamiec_RAM<-("16GB" , '16GB', '16GB', '6GB', '4GB', '3GB', '4GB', '4GB', '4GB', '2GB')
+matryca<-c('16GB','16GB','16GB','6GB','4GB','3GB','4GB','4FB','4GB','2GB')
+matryca
+pamiec_RAM<-c('16GB','16GB','16GB','6GB','4GB','3GB','4GB','4FB','4GB','2GB')
+remove(matryca)
+pamiec_wbudowana<-c('256 GB','32 GB','64 GB','128 GB','128 GB','64 GB','64 GB','64 GB','64 GB','32 GB')
+pamiec_wbudowana
+cena<- c(3949,1749,1799,3699,899,749,999,1599,929,1049)
+cena
+liczba_opinii<- c(0,8,24,20,51,2,52,26,24,13,1)
+liczba_opinii
+remove(liczba_opinii)
+liczba_opinii<- c(0,8,24,20,51,2,52,26,24,13)
+liczba_opinii
+tablety<-data.frame(nazwa, modem, wyswietlacz, pamiec_RAM, pamiec_wbudowana, cena, liczba_opinii)
+tablety
+tablety
+mean(tablety$cena)
+nowytablet<- data.frame(nazwa="Lenovo Yoga Smart Tab", wyswietlacz="IPS", pamiec_RAM="4 GB", pamiec_wbudowana"16 GB", cena="1199", liczba_opinii="6")
+nowytablet<- data.frame(nazwa="Lenovo Yoga Smart Tab", wyswietlacz="IPS", pamiec_RAM="4 GB", pamiec_wbudowana="16 GB", cena="1199", liczba_opinii="6")
+nowytablet
+tablety <- rbind(tablety,nowytablet)
+nowytablet
+remove(nowytablet)
+nowytablet<- data.frame(nazwa="Lenovo Yoga Smart Tab", modem="4G LTE", wyswietlacz="IPS", pamiec_RAM="4 GB", pamiec_wbudowana="16 GB", cena="1199", liczba_opinii="6")
+nowytablet
+tablety <- rbind(tablety,nowytablet)
+tablety
+mean(tablety$cena)
+remove(tablety)
+tablety<-data.frame(nazwa, modem, wyswietlacz, pamiec_RAM, pamiec_wbudowana, cena, liczba_opinii)
+tablety
+remove(nowytablet)
+nowytablet<- data.frame(nazwa="Lenovo Yoga Smart Tab", modem="4G LTE", wyswietlacz="IPS", pamiec_RAM="4 GB", pamiec_wbudowana="16 GB", cena=1199, liczba_opinii=6)
+tablety <- rbind(tablety,nowytablet)
+tablety
+mean(tablety$cena)
+tablety$ocena_klienta<-c('4','3','2','2','3','1','0','3','5','2','2')
+tablety
+aggregate(monitory$cena, list(monitory$ocena_klienta),mean)
+aggregate(tablety$cena, list(tablety$ocena_klienta),mean)
+newRow <- data.frame(nazwa = 'Lenovo', modem = '3G',  wyswietlacz= 'IPS', pamiec_RAM = '4GB', pamiec_wbudowana="64 GB", cena = 999, liczba_opinii = 10, ocena_klienta = '2')
+tablety <- rbind(tablety, newRow)
+tablety
+newRow <- data.frame(nazwa = 'ASUS', modem = '4G',  wyswietlacz= 'IPS', pamiec_RAM = '6GB', pamiec_wbudowana="64 GB", cena = 1999, liczba_opinii = 33, ocena_klienta = '5')
+tablety <- rbind(tablety, newRow)
+tablety <- rbind(tablety, newRow)
+tablety
+newRow <- data.frame(nazwa = 'XIAOMI', modem = '4G',  wyswietlacz= 'TFT', pamiec_RAM = '12GB', pamiec_wbudowana="128 GB", cena = 2999, liczba_opinii = 34, ocena_klienta = '4')
+tablety <- rbind(tablety, newRow)
+tablety
+install.packages("plotrix")
+library(plotrix)
+dane <- aggregate(tablety$liczba_opinii, list(tablety$ocena_klienta), sum)
+barp(dane[,2], names.arg = dane[,1], main = 'Liczebność reprezentantów każdej z ocen klientów')
+percentage <- table(tablety$ocena)/length(tablety$ocena_klienta)
+pie(percentage)
+percentage <- table(tablety$ocena)/length(tablety$ocena_klienta)
+fan.plot(percentage, labels = names(percentage), main = "Procentowy udział oceny")
+n_column <- ifelse(tablety$liczba_opinii>100,'wiecej 100 opinii',
+ifelse(tablety$liczba_opinii>=50, '50-100 opinii',
+ifelse(tablety$liczba_opinii>0, 'mniej 50 opinii',
+'nie ma')))
+tablety['status_opinii'] <- factor(n_column)
+tablety
+percentage <-table(tablety$status_opinii)/length(tablety$status_opinii)
+pie(percentage)
+for (i in 1:length(tablety$nazwa)){
+print(paste(tablety$nazwa[i], 'ma ocenę klientów', tablety$ocena_klienta[i], ',bo ma liczbę opinii', tablety$liczba_opinii[i]))
+}
+write.csv(tablety, 'tablety.csv')
+dane <-read.csv(tablety.csv)
+dane <-read.csv('tablety.csv')
+savehistory("historia_instrukcji_lab1.txt")
